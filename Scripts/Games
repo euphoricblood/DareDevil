@@ -1,13 +1,11 @@
-if game.PlaceId == 286090429 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Aresnal"))()
-elseif game.PlaceId == 10118559731 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Nicos%20Nextbots"))()
+if game.PlaceId == 10118559731 then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Nicos%20Nextbots",true))()
 elseif game.PlaceId == 292439477 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Phantom%20Forces"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Phantom%20Forces",true))()
 elseif game.PlaceId == 8737602449 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Please%20Donate"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Please%20Donate",true))()
 elseif game.PlaceId == 2377868063 then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Strucid"))()
-elseif game.PlaceId == then
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Universal"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Strucid",true))()
+elseif game.PlaceId == 5785731028 then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Universal",true))()
 end
