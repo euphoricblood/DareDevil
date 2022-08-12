@@ -1,0 +1,9 @@
+if game.PlaceId == 2788229376 then
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Da%20Hood'))()
+elseif game.PlaceId == 292439477 then
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Phantom%20Forces'))()
+elseif game.PlaceId == 6722284015 then
+   loadtstring(game:HttpGet('https://raw.githubusercontent.com/euphoricblood/DareDevil/main/Scripts/Pistol%201v1'))()
+elseif game.PlaceId then
+   game.Players.LocalPlayer:Kick(".gg/UCYtpnWCWh/nGame not supported")
+end
